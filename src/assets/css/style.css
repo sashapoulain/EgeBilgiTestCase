@@ -1,0 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+*{
+   font-family: "Oswald", sans-serif;
+
+}
+body {
+   background: linear-gradient(135deg, #770b00, #d88c82);
+
+}
+
+.card {
+   width: 100%;
+   height: 470px !important;
+   max-width: 400px;
+   margin-top: 2rem !important;
+}
+.img-wrapper{
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+.logo{
+   width: 150px;
+}
+.custom-btn{
+   background: linear-gradient(90deg, #770b00, #d88c82);
+}
+.form-control{
+   outline: none;
+   background-color: white;
+   border: 1px solid #e5e5e5;
+   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.form-control:focus{
+   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px !important;
+border: 1px solid #d88c82 !important;
+}
