@@ -22,6 +22,7 @@ body {
 }
 .logo{
    width: 150px;
+   max-height: 200px !important;
 }
 .custom-btn{
    background: linear-gradient(90deg, #770b00, #d88c82);
@@ -43,5 +44,11 @@ border: 1px solid #d88c82 !important;
 @media screen and (max-device-width:600px) {
    .logo{
       max-height: 125px !important;
+   }
+   .custom-btn{
+      margin-top: 1rem;
+   }
+   .remember-pass{
+font-size: 1rem;
    }
 }

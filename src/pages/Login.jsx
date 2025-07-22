@@ -70,7 +70,9 @@ export default function LoginPage() {
             {loading ? 'Giriş Yapılıyor...' : 'Giriş Yap'}
           </button>
         </form>
-        
+        <div className='mt-3'>
+          <a href="#" className='text-dark remember-pass'>Şifremi Unuttum</a>
+        </div>
       </div>
     </div>
   );
