@@ -37,3 +37,11 @@ body {
    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px !important;
 border: 1px solid #d88c82 !important;
 }
+
+
+
+@media screen and (max-device-width:600px) {
+   .logo{
+      max-height: 125px !important;
+   }
+}

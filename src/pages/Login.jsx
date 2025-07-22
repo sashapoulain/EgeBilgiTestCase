@@ -70,6 +70,7 @@ export default function LoginPage() {
             {loading ? 'Giriş Yapılıyor...' : 'Giriş Yap'}
           </button>
         </form>
+        
       </div>
     </div>
   );
