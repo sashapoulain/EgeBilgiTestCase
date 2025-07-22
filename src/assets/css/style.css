@@ -26,6 +26,7 @@ body {
 }
 .custom-btn{
    background: linear-gradient(90deg, #770b00, #d88c82);
+   margin-top: 0.5rem;
 }
 .form-control{
    outline: none;

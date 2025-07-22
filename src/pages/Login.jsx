@@ -32,7 +32,7 @@ export default function LoginPage() {
   return (
     <div className="container vh-100 d-flex justify-content-center align-items-center">
       <div className="card shadow p-4" style={{ minWidth: '360px' }}>
-        <div className="img-wrapper text-center mb-4">
+        <div className="img-wrapper text-center">
           <img src={logo} className="img-fluid logo" alt="Logo" style={{ maxHeight: 80 }} />
         </div>
 
